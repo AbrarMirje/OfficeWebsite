@@ -47,6 +47,7 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
 ?>
 
 
+
 <!DOCTYPE html>
 <html lang="eng">
 
@@ -100,7 +101,7 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
           <li><a href="#services" class="">Services</a></li>
           <li><a href="#featured" class="">About Us</a></li>
           <li><a href="#portfolio" class="">Our Work</a></li>
-          <li><a href="#pricing" class="">Our Plans</a></li>
+          <!-- <li><a href="#pricing" class="">Our Plans</a></li> -->
           <li><a href="#testimonials" class="">Testimonials</a></li>
           <li><a href="#team" class="">Team</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -427,12 +428,12 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
     <!-- End Portfolio Section -->
 
     <!-- Start Pricing Section -->
-    <div id="pricing" class="pricing section">
+    <!-- <div id="pricing" class="pricing section">
       <div class="container-fluid">
         <div class="container">
           <div class="section-header">
             <h2 class="fw-bolder">Our Plans</h2>
-            <!-- <p>Lorem ipsum dolor sit amet</p> -->
+            
           </div>
           <div class="row">
             <div class="col-lg-4">
@@ -440,9 +441,7 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
                 <div class="title border-2 border-bottom mb-2">
                   <h2 class="text-center">Basic</h2>
                 </div>
-                <!-- <div class="price">
-                  <h4><sup>₹</sup>25</h4>
-                </div> -->
+              
                 <div class="option">
                   <ul>
                     <li><i class="bi bi-check-circle" aria-hidden="true"></i> Static Website</li>
@@ -452,7 +451,7 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
                     <li><i class="bi bi-check-circle" aria-hidden="true"></i> Multi-pages Websites</li>
                   </ul>
                 </div>
-                <!-- <a href="#">Order Now</a> -->
+               
               </div>
             </div>
             <div class="col-lg-4">
@@ -460,9 +459,7 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
                 <div class="title border-2 border-bottom mb-2">
                   <h2 class="text-center">Standard</h2>
                 </div>
-                <!-- <div class="price">
-                  <h4><sup>₹</sup>50</h4>
-                </div> -->
+                
                 <div class="option">
                   <ul>
                     <li><i class="bi bi-check-circle" aria-hidden="true"></i> Dynamic Pages With Admin Panel</li>
@@ -472,7 +469,7 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
                     <li><i class="bi bi-check-circle" aria-hidden="true"></i> Free Maintenance</li>
                   </ul>
                 </div>
-                <!-- <a href="#">Order Now</a> -->
+              
               </div>
             </div>
             <div class="col-lg-4">
@@ -480,29 +477,21 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
                 <div class="title border-2 border-bottom mb-2">
                   <h2 class="text-center">Premium</h2>
                 </div>
-                <!-- <div class="price">
-                  <h4><sup>₹</sup>100</h4>
-                </div> -->
+                
                 <div class="option">
                   <ul>
                     <li><i class="bi bi-check-circle" aria-hidden="true"></i> Basic + Standard</li>
-                    <!-- <li><i class="bi bi-check-circle" aria-hidden="true"></i> Admin Panel and User Dashboard</li> -->
-                    <!-- <li><i class="bi bi-check-circle" aria-hidden="true"></i> User Dashboard</li> -->
-                    <!-- <li><i class="bi bi-check-circle" aria-hidden="true"></i> Guest Log</li> -->
-                    <li><i class="bi bi-check-circle" aria-hidden="true"></i> Unlimited Products, Categories and SubCategories</li>
+                   <li><i class="bi bi-check-circle" aria-hidden="true"></i> Unlimited Products, Categories and SubCategories</li>
                     <li><i class="bi bi-check-circle" aria-hidden="true"></i> Payment Gateway</li>
                     <li><i class="bi bi-check-circle" aria-hidden="true"></i> Checkouts</li>
-                    <!-- <li><i class="bi bi-check-circle" aria-hidden="true"></i> Custome UI Design</li> -->
                   </ul>
                 </div>
-                <!-- <a href="#">Order Now</a> -->
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- End Pricing Section -->
+    </div> -->
 
 
     <!--  Testimonials Section  -->
@@ -672,7 +661,7 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="100">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/manorama.jpg" alt="Manorama Banchhode" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/manorama.jpeg" alt="Manorama Banchhode" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Manorama Banchhode</h5>
@@ -685,11 +674,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="150">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/Frame 38.jpg" alt="Yogesh Banchhode" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/yogesh.jpeg" alt="Yogesh Banchhode" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Yogesh Banchhode</h5>
-            <p class="text-muted">Manager</p>
+            <p class="text-muted">Sr. Manager</p>
           </div>
         </div>
       </div>
@@ -698,11 +687,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="200">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/Shubham[1].jpg" alt="Shubham Lohar" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/shubham.jpg" alt="Shubham Lohar" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Shubham Lohar</h5>
-            <p class="text-muted">Project Manager</p>
+            <p class="text-muted">Sr. Project Manager</p>
           </div>
         </div>
       </div>
@@ -711,11 +700,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="250">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/bhagyashri.jpg" alt="Bhagyashri Panari" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/bhagyashri.jpeg" alt="Bhagyashri Panari" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Bhagyashri Panari</h5>
-            <p class="text-muted">Team Leader</p>
+            <p class="text-muted">Sr. Team Leader</p>
           </div>
         </div>
       </div>
@@ -737,11 +726,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="350">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/shramik.jpg" alt="Shramik Masti" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/shramik.png" alt="Shramik Masti" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Shramik Masti</h5>
-            <p class="text-muted">Backend Developer</p>
+            <p class="text-muted">Jr. Backend Developer</p>
           </div>
         </div>
       </div>
@@ -750,11 +739,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="400">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/abrar.jpg" alt="Abrar Mirje" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/abrar.jpeg" alt="Abrar Mirje" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Abrar Mirje</h5>
-            <p class="text-muted">Backend Developer</p>
+            <p class="text-muted">Jr. Backend Developer</p>
           </div>
         </div>
       </div>
@@ -763,11 +752,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="450">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/aishwarya.jpg" alt="Aishwarya Yadav" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/aishwarya.jpeg" alt="Aishwarya Yadav" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Aishwarya Yadav</h5>
-            <p class="text-muted">Frontend Developer</p>
+            <p class="text-muted">Jr. Frontend Developer</p>
           </div>
         </div>
       </div>
@@ -776,11 +765,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="500">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/jilani.jpg" alt="Jilani Pathan" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/jilani.jpeg" alt="Jilani Pathan" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Jilani Pathan</h5>
-            <p class="text-muted">Frontend Developer</p>
+            <p class="text-muted">Jr. Frontend Developer</p>
           </div>
         </div>
       </div>
@@ -789,11 +778,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="550">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/shifa.jpg" alt="Shifa Pathan" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/shifa.jpeg" alt="Shifa Pathan" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Shifa Pathan</h5>
-            <p class="text-muted">WordPress Developer</p>
+            <p class="text-muted">Jr. WordPress Developer</p>
           </div>
         </div>
       </div>
@@ -806,7 +795,7 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Prashant Patil</h5>
-            <p class="text-muted">UI Designer</p>
+            <p class="text-muted">Jr. UI Designer</p>
           </div>
         </div>
       </div>
@@ -815,11 +804,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="650">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/neha.jpg" alt="Neha Thombare" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/neha.png" alt="Neha Thombare" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Neha Thombare</h5>
-            <p class="text-muted">Business Analyst</p>
+            <p class="text-muted">Jr. Business Analyst</p>
           </div>
         </div>
       </div>
@@ -828,11 +817,11 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
       <div class="col-lg-3 col-md-6 col-sm-12 mb-4" data-aos="zoom-in" data-aos-delay="700">
         <div class="team-member card shadow border-0 text-center">
           <div class="team-image position-relative">
-            <img src="assets/images/teamImages/gita.jpg" alt="Gitanjali Naidu" class="img-fluid rounded-circle mx-auto team-photo">
+            <img src="assets/images/teamImages/gita.jpeg" alt="Gitanjali Naidu" class="img-fluid rounded-circle mx-auto team-photo">
           </div>
           <div class="card-body">
             <h5 class="fw-bold">Gitanjali Naidu</h5>
-            <p class="text-muted">Data Analyst</p>
+            <p class="text-muted">Jr. Business Analyst</p>
           </div>
         </div>
       </div>
@@ -1180,7 +1169,9 @@ mysqli_query($con,"insert into contact_us(name,email,mobile,comment) values('$na
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+
   <script src="assets/javascripts/jquery.min.js"></script>
+  
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>

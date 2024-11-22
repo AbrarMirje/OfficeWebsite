@@ -1284,6 +1284,11 @@ section {background: var(--light-color);}
 .team .member img {
   border-radius: 10px;
   overflow: hidden;
+  transition: none; /* Remove any animation or transform effects */
+}
+
+.team .member img:hover {
+  transform: none; /* Ensure no scaling or transformations on hover */
 }
 
 .team .member .member-content {
